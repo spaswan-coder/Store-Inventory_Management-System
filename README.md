@@ -60,8 +60,3 @@ How to Run the Project (PostgreSQL)
 Install PostgreSQL
 Download and install PostgreSQL on your system.
 Make sure psql works in your terminal
-The ER Model for the product description: (continued on Page 3,Figure 1)
-2 Comment Section
-2.1 References
-• ChatGPT
-• Database System Concepts by Abraham Silberschatz, Greg Gagne, and Peter Baer Galvin
