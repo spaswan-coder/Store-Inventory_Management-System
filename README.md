@@ -60,3 +60,32 @@ How to Run the Project (PostgreSQL)
 Install PostgreSQL
 Download and install PostgreSQL on your system.
 Make sure psql works in your terminal
+
+Install PostgreSQL
+Download and install PostgreSQL on your system.
+Make sure psql works in your terminal
+Create and Connect to Database
+
+CREATE DATABASE store_inventory_db;
+\c store_inventory_db;
+
+
+Run Table Creation SQL
+Copy and run the table creation SQL file in the terminal:
+
+psql -U postgres -d store_inventory_db -f Store_Inventory_table_creation.sql
+
+
+Run Data Insertion SQL
+
+psql -U postgres -d store_inventory_db -f Store_Inventory_Data_Insertion.sql
+
+
+Run Queries to Check Output
+
+psql -U postgres -d store_inventory_db -f Store_Inventory_Queries.sql
+
+2 Comment Section
+2.1 References
+• ChatGPT
+• Database System Concepts by Abraham Silberschatz, Greg Gagne, and Peter Baer Galvin
