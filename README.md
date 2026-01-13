@@ -54,7 +54,12 @@ Key Functionalities of the Application:
 • Auto-calculate applicable taxes (GST, VAT, etc.).
 • Generate tax invoices and reports for filing returns.
 • Ensure compliance with local tax regulations.
-1.3 ER Model
+
+How to Run the Project (PostgreSQL)
+
+Install PostgreSQL
+Download and install PostgreSQL on your system.
+Make sure psql works in your terminal
 The ER Model for the product description: (continued on Page 3,Figure 1)
 2 Comment Section
 2.1 References
